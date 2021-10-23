@@ -1,3 +1,5 @@
+const { ethers } = require("hardhat");
+
 async function main() {
     const EmotionalShapes = await ethers.getContractFactory("EmotionalShapes");
     const emotionalShapes = await EmotionalShapes.deploy();
