@@ -14,7 +14,7 @@ const wallet = new ethers.Wallet(process.env.PRIVATE_KEY, provider);
 
 //https://docs.ethers.io/v5/api/contract/contract
 const emotionalShapes = new ethers.Contract(
-  '0xca8f50B3a0e82333a67b43072E7aC2aBb039c3A5',
+  '0x1349aB7785Cb40affe2B5Aa833bC9310acB1dCDD',
   contractInterface,
   wallet
 );
